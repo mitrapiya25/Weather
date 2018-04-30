@@ -7,34 +7,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
-        <h1 class="font-weight-bold"><a href = "index.html">Latitude</a></h1>
-        <div class = "container">
-            <div class ="row">
-                <div class = "col-md-offset-9 col-md-9">
-                    <nav class="navbar navbar-default">
-                        <ul class="nav navbar-nav">
-                            <li class ="active">
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle"  
-                                      data-toggle="dropdown" id="dropdownMenu1" item-height="200px"
-                                      aria-haspopup="true" aria-expanded="true">Plots
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="max_temperature.html">Max Temperature</a></li>
-                                        <li><a href="humidity.html">Humidity</a></li>
-                                        <li><a href="cloud.html">Cloudiness</a></li>
-                                        <li><a href="WSpeed.html">Wind Speed</a></li>
-                                    </ul>
-                                </div>
-                            </li> 
-                            <li class = "active"><a href = "Comparison.html">Comparison</a></li>
-                            <li class = "active"><a href = "Data.html">Data</a></li>
+    <div class="navbar navbar-static">
+        <div class="navbar-inner">
+            <a href="index.html" class="brand">Latitude</a>
+                <ul class="nav pull-right">
+                    <li class = "active" style="float:right"><a href = "Data.htm">Data</a></li>    
+                    <li class = "active" style="float:right" ><a href = "Comparison.html">Comparison</a></li>
+                    <li class="dropdown" style="float:right">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Plots <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="max_temperature.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloud.html">Cloudiness</a></li>
+                            <li><a href="WSpeed.html">Wind Speed</a></li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
+                    </li>
+                </ul>
         </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8">

@@ -6,14 +6,15 @@
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
         <div class="navbar navbar-static">
                 <div class="navbar-inner">
                     <a href="index.html" class="brand">Latitude</a>
                     <ul class="nav pull-right">
-                        <li class="dropdown">
+                        <li class = "active" style="float:right"><a href = "Data.htm">Data</a></li>    
+                        <li class = "active" style="float:right" ><a href = "Comparison.html">Comparison</a></li>
+                        <li class="dropdown" style="float:right">
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Plots <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="max_temperature.html">Max Temperature</a></li>
@@ -22,8 +23,7 @@
                                 <li><a href="WSpeed.html">Wind Speed</a></li>
                             </ul>
                         </li>
-                        <li class = "active"><a href = "Comparison.html">Comparison</a></li>
-                        <li class = "active"><a href = "Data.htm">Data</a></li>
+                                                
                     </ul>
                 </div>
             </div>
@@ -34,11 +34,14 @@
         <div class ="row">
             <div class = "col-md-7">
                 <div class = "boxedland">
-                    <p><img src = "output_12_0.png" alt = "Vision" width = 300, height =250>Ths project was to analyse the climate variations with respect to Equator. Sampled with around 100 locations across various 
+                    <p><img src = "output_12_0.png" style="float:left" alt = "Vision" width = 300, height =250><br></br>
+                        Ths project was to analyse the climate variations with respect to Equator. Sampled with around 100 locations across various 
                         latitudes and plotted graphs for each of the variables i.e Temperature, Humidity, Cloudiness and Wind Speed</p>
                     <p>To accomplish this analysis we pulled data from OpenWeatherMapAPI for over 500 random cities. Then use matplotlib
-                        to plot varioues wetaher aspects vs latitudes.
-                        This site provides the visualization of al the data collected and analyzed
+                        to plot varioues waether aspects vs latitudes.
+                        This site provides the visualization of all the data collected and analyzed. You can go to individual pages to view the Plots
+                        or else can go the comparison page to see all the graphs and will be able to compare the same.
+                        Data page takes us to the Data that was used to perform this analysis
                     </p>    
                 </div>
             </div>
