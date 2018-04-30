@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta charset="UTF-8">
+    <title>Wether Analysis Near Equator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+        <h1 class="font-weight-bold"><a href = "index.html">Latitude</a></h1>
+        <div class = "container">
+            <div class ="row">
+                <div class = "col-md-offset-9 col-md-9">
+                    <nav class="navbar navbar-default">
+                        <ul class="nav navbar-nav">
+                            <li class ="active">
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle"  
+                                      data-toggle="dropdown" id="dropdownMenu1" item-height="200px"
+                                      aria-haspopup="true" aria-expanded="true">Plots
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="max_temperature.html">Max Temperature</a></li>
+                                        <li><a href="humidity.html">Humidity</a></li>
+                                        <li><a href="cloud.html">Cloudiness</a></li>
+                                        <li><a href="WSpeed.html">Wind Speed</a></li>
+                                    </ul>
+                                </div>
+                            </li> 
+                            <li class = "active"><a href = "Comparison.html">Comparison</a></li>
+                            <li class = "active"><a href = "Data.htm">Data</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class ="box">
+                    <img src="output_14_0.png" alt ="Humidity" width = 300 height = 250>
+                    <p>The above scatter plot shows the Cloudiness in locations in respect to the
+                        Equator represented by the central line. We can cnlcude from the graph that places 
+                        near the Equator is more cloudy than the ones far from it.
+                    </p>
+                </div>
+            </div>
+            <div class = "col-md-4">
+                    <div class "box">
+                        <h2>Visulaization</h2>
+    
+                        <a href ="max_temperature.html"><img src = "output_11_0.png" alt ="Max Temperature" width = 200 height = 150
+                            style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+                        </a>
+                        <a href ="humidity.html"><img src = "output_12_0.png" alt ="Max Temperature" width = 200 height = 150
+                            style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+                        </a>
+                        <a href ="cloud.html"><img src = "output_14_0.png" alt ="Max Temperature" width = 200 height = 150
+                            style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+                        </a>
+                        <a href ="WSpeed.html"><img src = "output_13_0.png" alt ="Max Temperature" width = 200 height = 150
+                            style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+                        </a>
+    
+                    </div>
+            </div>
+        </div>
+    </div> 
+
+</body>
