@@ -1,3 +1,4 @@
+You can veiw the analysis in my webpage https://mitrapiya25.github.io/weatheranalysis/ .
 The weather data captured is for 3/17/2018. From the plot of Temperature vs Latitude we observe that the temperature near the Equator (0 Latitude) is always higher. The temperature starts falling as we go away from the equator on both south and north direction, going below 0 beyond 40 Lat.Humidity is High on the southern Hemisphere near the equator but not so in the northen Hemisphere. Another climatic condition near the Equator is the rain and cloud. The rainfall definitley is less as we go away from the Equator. The concentration on Cloudiness is heavy in some parts away from the equator, but so is the concentraion of Clear Skies. Parts where humidity is High is also has Rainy weather.
 
 ```python
